@@ -2,20 +2,24 @@ package common;
 
 import publications.PublicationField;
 
+import java.text.DecimalFormat;
 import java.util.Date;
 import java.util.SplittableRandom;
+
+import static common.RoundingUtils.round;
 
 public class RandomFieldsUtils {
 
     private static final Company[] companies = Company.values();
     private static final SplittableRandom random = new SplittableRandom();
+    private static final DecimalFormat decimalFormat = new DecimalFormat("0.00");
 
     public static Object getRandomFieldValue(PublicationField fieldType) {
         return switch (fieldType) {
             case COMPANY -> getRandomCompanyFieldValue();
-            case VALUE -> getRandomValueFieldValue();
-            case DROP -> getRandomDropFieldValue();
-            case VARIATION -> getRandomVariationFieldValue();
+            case VALUE -> round(getRandomValueFieldValue(), 2);
+            case DROP -> round(getRandomDropFieldValue(), 2);
+            case VARIATION -> round(getRandomVariationFieldValue(), 2);
             case DATE -> getRandomDateFieldValue();
         };
     }

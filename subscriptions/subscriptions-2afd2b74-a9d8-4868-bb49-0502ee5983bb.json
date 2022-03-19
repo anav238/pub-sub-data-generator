@@ -1,0 +1,133 @@
+[ {
+  "conditions" : [ {
+    "fieldName" : "VARIATION",
+    "operator" : "EQUALS",
+    "value" : 0.08
+  }, {
+    "fieldName" : "VALUE",
+    "operator" : "LESS_THAN_OR_EQUAL_TO",
+    "value" : 122.11
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "EQUALS",
+    "value" : "Google"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "COMPANY",
+    "operator" : "NOT_EQUALS",
+    "value" : "Google"
+  }, {
+    "fieldName" : "VALUE",
+    "operator" : "LESS_THAN_OR_EQUAL_TO",
+    "value" : 86.92
+  }, {
+    "fieldName" : "VARIATION",
+    "operator" : "GREATER_THAN",
+    "value" : 0.28
+  }, {
+    "fieldName" : "DROP",
+    "operator" : "LESS_THAN_OR_EQUAL_TO",
+    "value" : 35.86
+  }, {
+    "fieldName" : "DATE",
+    "operator" : "LESS_THAN_OR_EQUAL_TO",
+    "value" : "2018-06-01"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VARIATION",
+    "operator" : "NOT_EQUALS",
+    "value" : 0.92
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "NOT_EQUALS",
+    "value" : "Google"
+  }, {
+    "fieldName" : "VALUE",
+    "operator" : "LESS_THAN",
+    "value" : 77.57
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VALUE",
+    "operator" : "GREATER_THAN",
+    "value" : 101.53
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DROP",
+    "operator" : "GREATER_THAN_OR_EQUAL_TO",
+    "value" : 7.83
+  }, {
+    "fieldName" : "DATE",
+    "operator" : "GREATER_THAN_OR_EQUAL_TO",
+    "value" : "2015-11-05"
+  }, {
+    "fieldName" : "VALUE",
+    "operator" : "GREATER_THAN",
+    "value" : 70.66
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "EQUALS",
+    "value" : "LG"
+  }, {
+    "fieldName" : "VARIATION",
+    "operator" : "EQUALS",
+    "value" : 0.91
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VARIATION",
+    "operator" : "NOT_EQUALS",
+    "value" : 0.83
+  }, {
+    "fieldName" : "DATE",
+    "operator" : "LESS_THAN_OR_EQUAL_TO",
+    "value" : "2017-05-20"
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "NOT_EQUALS",
+    "value" : "LG"
+  }, {
+    "fieldName" : "DROP",
+    "operator" : "GREATER_THAN_OR_EQUAL_TO",
+    "value" : 43.9
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "COMPANY",
+    "operator" : "NOT_EQUALS",
+    "value" : "LG"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VARIATION",
+    "operator" : "GREATER_THAN_OR_EQUAL_TO",
+    "value" : 0.99
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "EQUALS",
+    "value" : "LG"
+  }, {
+    "fieldName" : "VALUE",
+    "operator" : "NOT_EQUALS",
+    "value" : 138.24
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "COMPANY",
+    "operator" : "EQUALS",
+    "value" : "Facebook"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VALUE",
+    "operator" : "LESS_THAN",
+    "value" : 86.64
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "EQUALS",
+    "value" : "Google"
+  } ]
+} ]
