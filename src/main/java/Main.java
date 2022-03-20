@@ -1,4 +1,7 @@
 import common.JsonWriter;
+import publications.Publication;
+import publications.PublicationGenerator;
+import publications.PublicationGeneratorConfiguration;
 import subscriptions.Subscription;
 import subscriptions.SubscriptionGenerator;
 import subscriptions.SubscriptionGeneratorConfiguration;
@@ -15,6 +18,8 @@ public class Main {
     public static void main(String[] args) {
         try {
             Properties properties = getApplicationProperties();
+            List<Publication> publications = generatePublications(properties);
+            savePublications(publications);
             List<Subscription> subscriptions = generateSubscriptions(properties);
             saveSubscriptions(subscriptions);
         } catch (IOException e) {
@@ -28,6 +33,12 @@ public class Main {
         properties.load(is);
         return properties;
     }
+    public static List<Publication> generatePublications(Properties properties) {
+        PublicationGeneratorConfiguration configuration = new PublicationGeneratorConfiguration(properties);
+        PublicationGenerator publicationGenerator = new PublicationGenerator(configuration);
+
+        return publicationGenerator.generatePublications();
+    }
 
     public static List<Subscription> generateSubscriptions(Properties properties) {
         SubscriptionGeneratorConfiguration configuration = new SubscriptionGeneratorConfiguration(properties);
@@ -35,7 +46,11 @@ public class Main {
 
         return subscriptionGenerator.generateSubscriptions();
     }
-
+    public static void savePublications(List<Publication> publications) throws IOException {
+        JsonWriter jsonWriter = new JsonWriter();
+        String filename = "publications/publications-" + UUID.randomUUID() + ".json";
+        jsonWriter.writeObjectAsJsonToFile(new File(filename), publications);
+    }
     public static void saveSubscriptions(List<Subscription> subscriptions) throws IOException {
         JsonWriter jsonWriter = new JsonWriter();
         String filename = "subscriptions/subscriptions-" + UUID.randomUUID() + ".json";

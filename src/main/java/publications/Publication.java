@@ -1,15 +1,17 @@
 package publications;
 
+import common.Company;
+
 import java.util.Date;
 
 public class Publication {
-    private String company;
+    private Company company;
     private double value;
     private double drop;
     private double variation;
     private Date date;
 
-    public Publication(String company, double value, double drop, double variation, Date date) {
+    public Publication(Company company, double value, double drop, double variation, Date date) {
         this.company = company;
         this.value = value;
         this.drop = drop;
@@ -17,7 +19,7 @@ public class Publication {
         this.date = date;
     }
 
-    public String getCompany() {
+    public Company getCompany() {
         return company;
     }
 
@@ -35,5 +37,16 @@ public class Publication {
 
     public Date getDate() {
         return date;
+    }
+
+    @Override
+    public String toString() {
+        return "Publication{" +
+                "company=" + company +
+                ", value=" + value +
+                ", drop=" + drop +
+                ", variation=" + variation +
+                ", date=" + date +
+                '}';
     }
 }
