@@ -33,6 +33,7 @@ public class Main {
         properties.load(is);
         return properties;
     }
+
     public static List<Publication> generatePublications(Properties properties) {
         PublicationGeneratorConfiguration configuration = new PublicationGeneratorConfiguration(properties);
         PublicationGenerator publicationGenerator = new PublicationGenerator(configuration);
@@ -46,11 +47,13 @@ public class Main {
 
         return subscriptionGenerator.generateSubscriptions();
     }
+
     public static void savePublications(List<Publication> publications) throws IOException {
         JsonWriter jsonWriter = new JsonWriter();
         String filename = "publications/publications-" + UUID.randomUUID() + ".json";
         jsonWriter.writeObjectAsJsonToFile(new File(filename), publications);
     }
+
     public static void saveSubscriptions(List<Subscription> subscriptions) throws IOException {
         JsonWriter jsonWriter = new JsonWriter();
         String filename = "subscriptions/subscriptions-" + UUID.randomUUID() + ".json";

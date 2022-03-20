@@ -1,0 +1,61 @@
+[ {
+  "company" : "Tesla",
+  "value" : 63.79,
+  "drop" : 15.58,
+  "variation" : 0.22,
+  "date" : "2017-04-19"
+}, {
+  "company" : "Facebook",
+  "value" : 146.63,
+  "drop" : 18.04,
+  "variation" : 0.73,
+  "date" : "2020-10-18"
+}, {
+  "company" : "Google",
+  "value" : 121.46,
+  "drop" : 32.85,
+  "variation" : 0.93,
+  "date" : "2016-01-24"
+}, {
+  "company" : "INSTAGRAM",
+  "value" : 132.2,
+  "drop" : 19.96,
+  "variation" : 0.48,
+  "date" : "2017-09-19"
+}, {
+  "company" : "TWITTER",
+  "value" : 132.23,
+  "drop" : 12.3,
+  "variation" : 0.8,
+  "date" : "2016-09-27"
+}, {
+  "company" : "Tesla",
+  "value" : 144.15,
+  "drop" : 38.04,
+  "variation" : 0.76,
+  "date" : "2021-04-16"
+}, {
+  "company" : "TWITTER",
+  "value" : 94.45,
+  "drop" : 30.29,
+  "variation" : 0.44,
+  "date" : "2021-05-19"
+}, {
+  "company" : "INSTAGRAM",
+  "value" : 131.45,
+  "drop" : 37.19,
+  "variation" : 0.32,
+  "date" : "2018-08-17"
+}, {
+  "company" : "TWITTER",
+  "value" : 72.12,
+  "drop" : 22.11,
+  "variation" : 0.62,
+  "date" : "2019-07-08"
+}, {
+  "company" : "Google",
+  "value" : 85.35,
+  "drop" : 18.17,
+  "variation" : 0.18,
+  "date" : "2019-03-16"
+} ]

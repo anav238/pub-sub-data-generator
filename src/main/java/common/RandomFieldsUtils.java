@@ -6,7 +6,7 @@ import java.text.DecimalFormat;
 import java.util.Date;
 import java.util.SplittableRandom;
 
-import static common.RoundingUtils.round;
+import static common.MathUtils.round;
 
 public class RandomFieldsUtils {
 

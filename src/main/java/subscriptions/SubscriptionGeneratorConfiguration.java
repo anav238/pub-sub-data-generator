@@ -1,51 +1,65 @@
 package subscriptions;
 
+import common.MathUtils;
+
 import java.util.Properties;
 
 public class SubscriptionGeneratorConfiguration {
     private final int subscriptionsToGenerate;
-    private final int companySubscriptionFrequency;
-    private final int valueSubscriptionFrequency;
-    private final int dropSubscriptionFrequency;
-    private final int variationSubscriptionFrequency;
-    private final int dateSubscriptionFrequency;
-    private final int companyEqualsFrequency;
+
+    private final int companySubscriptions;
+    private final int valueSubscriptions;
+    private final int dropSubscriptions;
+    private final int variationSubscriptions;
+    private final int dateSubscriptions;
+
+    private final int companyEqualsSubscriptions;
 
     public SubscriptionGeneratorConfiguration(Properties properties) {
         this.subscriptionsToGenerate = Integer.parseInt(properties.getProperty("NO_OF_SUBSCRIPTIONS"));
-        this.companySubscriptionFrequency = Integer.parseInt(properties.getProperty("COMPANY_SUBSCRIPTION_FREQUENCY"));
-        this.valueSubscriptionFrequency = Integer.parseInt(properties.getProperty("VALUE_SUBSCRIPTION_FREQUENCY"));
-        this.dropSubscriptionFrequency =  Integer.parseInt(properties.getProperty("DROP_SUBSCRIPTION_FREQUENCY"));
-        this.variationSubscriptionFrequency = Integer.parseInt(properties.getProperty("VARIATION_SUBSCRIPTION_FREQUENCY"));
-        this.dateSubscriptionFrequency = Integer.parseInt(properties.getProperty("DATE_SUBSCRIPTION_FREQUENCY"));
-        this.companyEqualsFrequency = Integer.parseInt(properties.getProperty("COMPANY_EQUALS_FREQUENCY"));
+
+        int companySubscriptionFrequency = Integer.parseInt(properties.getProperty("COMPANY_SUBSCRIPTION_FREQUENCY"));
+        int valueSubscriptionFrequency = Integer.parseInt(properties.getProperty("VALUE_SUBSCRIPTION_FREQUENCY"));
+        int dropSubscriptionFrequency = Integer.parseInt(properties.getProperty("DROP_SUBSCRIPTION_FREQUENCY"));
+        int variationSubscriptionFrequency = Integer.parseInt(properties.getProperty("VARIATION_SUBSCRIPTION_FREQUENCY"));
+        int dateSubscriptionFrequency = Integer.parseInt(properties.getProperty("DATE_SUBSCRIPTION_FREQUENCY"));
+
+        this.companySubscriptions = MathUtils.getRoundedValueOfPercentage(companySubscriptionFrequency, subscriptionsToGenerate);
+        this.valueSubscriptions = MathUtils.getRoundedValueOfPercentage(valueSubscriptionFrequency, subscriptionsToGenerate);
+        this.dropSubscriptions = MathUtils.getRoundedValueOfPercentage(dropSubscriptionFrequency, subscriptionsToGenerate);
+        this.variationSubscriptions = MathUtils.getRoundedValueOfPercentage(variationSubscriptionFrequency, subscriptionsToGenerate);
+        this.dateSubscriptions = MathUtils.getRoundedValueOfPercentage(dateSubscriptionFrequency, subscriptionsToGenerate);
+
+        int companyEqualsFrequency = Integer.parseInt(properties.getProperty("COMPANY_EQUALS_FREQUENCY"));
+
+        this.companyEqualsSubscriptions = MathUtils.getRoundedValueOfPercentage(companyEqualsFrequency, companySubscriptions);
     }
 
     public int getSubscriptionsToGenerate() {
         return subscriptionsToGenerate;
     }
 
-    public int getCompanySubscriptionFrequency() {
-        return companySubscriptionFrequency;
+    public int getCompanySubscriptions() {
+        return companySubscriptions;
     }
 
-    public int getValueSubscriptionFrequency() {
-        return valueSubscriptionFrequency;
+    public int getValueSubscriptions() {
+        return valueSubscriptions;
     }
 
-    public int getDropSubscriptionFrequency() {
-        return dropSubscriptionFrequency;
+    public int getDropSubscriptions() {
+        return dropSubscriptions;
     }
 
-    public int getVariationSubscriptionFrequency() {
-        return variationSubscriptionFrequency;
+    public int getVariationSubscriptions() {
+        return variationSubscriptions;
     }
 
-    public int getDateSubscriptionFrequency() {
-        return dateSubscriptionFrequency;
+    public int getDateSubscriptions() {
+        return dateSubscriptions;
     }
 
-    public int getCompanyEqualsFrequency() {
-        return companyEqualsFrequency;
+    public int getCompanyEqualsSubscriptions() {
+        return companyEqualsSubscriptions;
     }
 }

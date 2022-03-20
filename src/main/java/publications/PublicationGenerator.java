@@ -17,7 +17,7 @@ public class PublicationGenerator {
 
     public List<Publication> generatePublications() {
         List<Publication> publications = new ArrayList<>();
-        for(int i=0; i<configuration.getPublicationsToGenerate(); i++)
+        for (int i = 0; i < configuration.getPublicationsToGenerate(); i++)
             publications.add(generatePublication());
         return publications;
     }
@@ -28,7 +28,7 @@ public class PublicationGenerator {
         double drop = (double) RandomFieldsUtils.getRandomFieldValue(PublicationField.DROP);
         double variation = (double) RandomFieldsUtils.getRandomFieldValue(PublicationField.VARIATION);
         Date date = (Date) RandomFieldsUtils.getRandomFieldValue(PublicationField.DATE);
-        Publication publication = new Publication(company,value,drop,variation,date);
+        Publication publication = new Publication(company, value, drop, variation, date);
         return publication;
     }
 }

@@ -1,0 +1,601 @@
+[ {
+  "conditions" : [ {
+    "fieldName" : "VALUE",
+    "operator" : "<=",
+    "value" : 115.29
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DATE",
+    "operator" : "!=",
+    "value" : "2019-01-21"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DROP",
+    "operator" : ">=",
+    "value" : 40.83
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DATE",
+    "operator" : "<=",
+    "value" : "2015-03-31"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VARIATION",
+    "operator" : "!=",
+    "value" : 0.76
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DATE",
+    "operator" : "!=",
+    "value" : "2022-01-05"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VALUE",
+    "operator" : ">=",
+    "value" : 141.95
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DATE",
+    "operator" : "<=",
+    "value" : "2017-11-19"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "Tesla"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VARIATION",
+    "operator" : ">=",
+    "value" : 0.17
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DATE",
+    "operator" : ">=",
+    "value" : "2019-12-22"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "COMPANY",
+    "operator" : "!=",
+    "value" : "Facebook"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DROP",
+    "operator" : "<",
+    "value" : 15.58
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VARIATION",
+    "operator" : "!=",
+    "value" : 0.31
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "COMPANY",
+    "operator" : "!=",
+    "value" : "INSTAGRAM"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VALUE",
+    "operator" : ">",
+    "value" : 64.04
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "COMPANY",
+    "operator" : "!=",
+    "value" : "Tesla"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VALUE",
+    "operator" : "!=",
+    "value" : 98.16
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VARIATION",
+    "operator" : ">=",
+    "value" : 0.69
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VARIATION",
+    "operator" : "=",
+    "value" : 0.55
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VARIATION",
+    "operator" : ">",
+    "value" : 0.51
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DROP",
+    "operator" : "<=",
+    "value" : 6.15
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DROP",
+    "operator" : "!=",
+    "value" : 32.65
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VALUE",
+    "operator" : ">",
+    "value" : 100.57
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DROP",
+    "operator" : "!=",
+    "value" : 42.7
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DROP",
+    "operator" : "!=",
+    "value" : 17.31
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DROP",
+    "operator" : "<",
+    "value" : 33.91
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DATE",
+    "operator" : ">",
+    "value" : "2022-09-23"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VARIATION",
+    "operator" : "=",
+    "value" : 0.32
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "COMPANY",
+    "operator" : "!=",
+    "value" : "LG"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VARIATION",
+    "operator" : "=",
+    "value" : 0.14
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "COMPANY",
+    "operator" : "!=",
+    "value" : "LG"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DROP",
+    "operator" : "!=",
+    "value" : 4.42
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DATE",
+    "operator" : "<=",
+    "value" : "2022-01-03"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DROP",
+    "operator" : "=",
+    "value" : 2.73
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DROP",
+    "operator" : "<",
+    "value" : 32.51
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DATE",
+    "operator" : "<",
+    "value" : "2015-09-21"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DATE",
+    "operator" : "=",
+    "value" : "2020-12-28"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VALUE",
+    "operator" : ">=",
+    "value" : 93.2
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DROP",
+    "operator" : "<",
+    "value" : 21.48
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DROP",
+    "operator" : ">",
+    "value" : 47.45
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VALUE",
+    "operator" : "<",
+    "value" : 148.09
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "COMPANY",
+    "operator" : "!=",
+    "value" : "Facebook"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "Google"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DATE",
+    "operator" : "<=",
+    "value" : "2020-08-03"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VALUE",
+    "operator" : "=",
+    "value" : 104.81
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "LG"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "INSTAGRAM"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VARIATION",
+    "operator" : ">=",
+    "value" : 0.97
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VARIATION",
+    "operator" : "!=",
+    "value" : 0.11
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "COMPANY",
+    "operator" : "!=",
+    "value" : "LG"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "Facebook"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VARIATION",
+    "operator" : ">",
+    "value" : 0.13
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VARIATION",
+    "operator" : "<=",
+    "value" : 0.17
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VALUE",
+    "operator" : "!=",
+    "value" : 87.59
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VALUE",
+    "operator" : ">=",
+    "value" : 129.48
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "COMPANY",
+    "operator" : "!=",
+    "value" : "Facebook"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DATE",
+    "operator" : "<",
+    "value" : "2020-06-28"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DATE",
+    "operator" : ">=",
+    "value" : "2021-04-14"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DROP",
+    "operator" : "=",
+    "value" : 25.69
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VARIATION",
+    "operator" : "=",
+    "value" : 0.74
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DATE",
+    "operator" : "!=",
+    "value" : "2021-08-10"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DATE",
+    "operator" : "!=",
+    "value" : "2015-11-01"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "INSTAGRAM"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "Google"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VARIATION",
+    "operator" : ">",
+    "value" : 0.46
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VARIATION",
+    "operator" : "<",
+    "value" : 0.94
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VALUE",
+    "operator" : "<",
+    "value" : 62.11
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VALUE",
+    "operator" : ">",
+    "value" : 145.09
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DROP",
+    "operator" : ">",
+    "value" : 21.87
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "Google"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VARIATION",
+    "operator" : "<",
+    "value" : 0.57
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DATE",
+    "operator" : "=",
+    "value" : "2015-10-04"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VALUE",
+    "operator" : "=",
+    "value" : 142.64
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "TWITTER"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DROP",
+    "operator" : ">",
+    "value" : 35.17
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DATE",
+    "operator" : ">",
+    "value" : "2017-04-13"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "COMPANY",
+    "operator" : "!=",
+    "value" : "LG"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VALUE",
+    "operator" : "=",
+    "value" : 97.87
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "TWITTER"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "COMPANY",
+    "operator" : "!=",
+    "value" : "TWITTER"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DROP",
+    "operator" : "<=",
+    "value" : 11.89
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DROP",
+    "operator" : ">=",
+    "value" : 8.19
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VARIATION",
+    "operator" : "<",
+    "value" : 0.16
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VALUE",
+    "operator" : "!=",
+    "value" : 81.14
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VALUE",
+    "operator" : ">=",
+    "value" : 58.78
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DATE",
+    "operator" : ">=",
+    "value" : "2018-03-05"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DATE",
+    "operator" : "=",
+    "value" : "2021-09-02"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DATE",
+    "operator" : "<",
+    "value" : "2017-06-11"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VALUE",
+    "operator" : ">=",
+    "value" : 129.42
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VALUE",
+    "operator" : "<=",
+    "value" : 80.91
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DROP",
+    "operator" : ">=",
+    "value" : 35.48
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DATE",
+    "operator" : "<",
+    "value" : "2021-05-14"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VARIATION",
+    "operator" : "<=",
+    "value" : 0.62
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DROP",
+    "operator" : ">=",
+    "value" : 36.88
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DROP",
+    "operator" : "!=",
+    "value" : 10.28
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VARIATION",
+    "operator" : "<=",
+    "value" : 0.84
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VARIATION",
+    "operator" : "=",
+    "value" : 0.03
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VALUE",
+    "operator" : "=",
+    "value" : 70.08
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VALUE",
+    "operator" : "<",
+    "value" : 130.4
+  } ]
+} ]

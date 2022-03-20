@@ -5,11 +5,11 @@ import common.Company;
 import java.util.Date;
 
 public class Publication {
-    private Company company;
-    private double value;
-    private double drop;
-    private double variation;
-    private Date date;
+    private final Company company;
+    private final double value;
+    private final double drop;
+    private final double variation;
+    private final Date date;
 
     public Publication(Company company, double value, double drop, double variation, Date date) {
         this.company = company;

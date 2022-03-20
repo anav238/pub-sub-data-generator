@@ -14,6 +14,6 @@ public class Constants {
     public static double MIN_VARIATION = 0.0;
     public static double MAX_VARIATION = 1.0;
 
-    public static Date START_DATE = new Date(2015 - 1900, Calendar.JANUARY,1);
-    public static Date END_DATE = new Date(2022 - 1900, Calendar.DECEMBER,31);
+    public static Date START_DATE = new Date(2015 - 1900, Calendar.JANUARY, 1);
+    public static Date END_DATE = new Date(2022 - 1900, Calendar.DECEMBER, 31);
 }

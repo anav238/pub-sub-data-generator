@@ -9,6 +9,8 @@ public class PublicationGeneratorConfiguration {
         this.subscriptionsToGenerate = Integer.parseInt(properties.getProperty("NO_OF_PUBLICATIONS"));
     }
 
-    public int getPublicationsToGenerate() { return subscriptionsToGenerate; }
+    public int getPublicationsToGenerate() {
+        return subscriptionsToGenerate;
+    }
 
 }

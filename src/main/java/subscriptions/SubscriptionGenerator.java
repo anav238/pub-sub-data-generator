@@ -4,7 +4,10 @@ import common.RandomFieldsUtils;
 import common.RandomUtils;
 import publications.PublicationField;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.SplittableRandom;
 
 public class SubscriptionGenerator {
 
@@ -18,38 +21,51 @@ public class SubscriptionGenerator {
     public List<Subscription> generateSubscriptions() {
         List<Subscription> subscriptions = new ArrayList<>();
         for (int i = 0; i < configuration.getSubscriptionsToGenerate(); i++)
-            subscriptions.add(generateSubscription());
+            subscriptions.add(new Subscription());
+
+        List<SubscriptionCondition> conditions = generateSubscriptionConditions();
+        Collections.shuffle(conditions);
+
+        int subscriptionIndex = 0;
+        for (SubscriptionCondition condition : conditions) {
+            Subscription currentSubscription = subscriptions.get(subscriptionIndex);
+
+            while (currentSubscription.containsConditionRelatedToField(condition.getFieldName())) {
+                subscriptionIndex = subscriptionIndex == subscriptions.size() - 1 ? 0 : subscriptionIndex + 1;
+                currentSubscription = subscriptions.get(subscriptionIndex);
+            }
+
+            currentSubscription.addCondition(condition);
+            subscriptionIndex = subscriptionIndex == subscriptions.size() - 1 ? 0 : subscriptionIndex + 1;
+        }
         return subscriptions;
     }
 
-    private Subscription generateSubscription() {
-        Set<SubscriptionCondition> conditions = new HashSet<>();
-
-        boolean includeCompany = includeField(configuration.getCompanySubscriptionFrequency());
-        if (includeCompany) {
-            ComparisonOperator comparisonOperator = includeField(configuration.getCompanyEqualsFrequency()) ? ComparisonOperator.EQUALS : ComparisonOperator.NOT_EQUALS;
+    private List<SubscriptionCondition> generateSubscriptionConditions() {
+        List<SubscriptionCondition> conditions = new ArrayList<>();
+        for (int i = 0; i < configuration.getCompanySubscriptions(); i++) {
             Object value = RandomFieldsUtils.getRandomFieldValue(PublicationField.COMPANY);
-            conditions.add(new SubscriptionCondition(PublicationField.COMPANY, comparisonOperator, value));
+            if (i < configuration.getCompanyEqualsSubscriptions())
+                conditions.add(new SubscriptionCondition(PublicationField.COMPANY, ComparisonOperator.EQUALS, value));
+            else
+                conditions.add(new SubscriptionCondition(PublicationField.COMPANY, ComparisonOperator.NOT_EQUALS, value));
         }
 
-        boolean includeValue = includeField(configuration.getValueSubscriptionFrequency());
-        if (includeValue)
+        for (int i = 0; i < configuration.getValueSubscriptions(); i++)
             conditions.add(generateSubscriptionConditionForField(PublicationField.VALUE));
 
-        boolean includeDrop = includeField(configuration.getDropSubscriptionFrequency());
-        if (includeDrop)
+        for (int i = 0; i < configuration.getDropSubscriptions(); i++)
             conditions.add(generateSubscriptionConditionForField(PublicationField.DROP));
 
-        boolean includeVariation = includeField(configuration.getVariationSubscriptionFrequency());
-        if (includeVariation)
+        for (int i = 0; i < configuration.getVariationSubscriptions(); i++)
             conditions.add(generateSubscriptionConditionForField(PublicationField.VARIATION));
 
-        boolean includeDate = includeField(configuration.getDateSubscriptionFrequency());
-        if (includeDate)
+        for (int i = 0; i < configuration.getDateSubscriptions(); i++)
             conditions.add(generateSubscriptionConditionForField(PublicationField.DATE));
 
-        return new Subscription(conditions);
+        return conditions;
     }
+
 
     private SubscriptionCondition generateSubscriptionConditionForField(PublicationField field) {
         ComparisonOperator comparisonOperator = RandomUtils.getRandomComparisonOperator();

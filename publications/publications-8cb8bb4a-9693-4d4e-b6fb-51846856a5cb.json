@@ -1,0 +1,61 @@
+[ {
+  "company" : "Tesla",
+  "value" : 116.57,
+  "drop" : 40.25,
+  "variation" : 0.25,
+  "date" : "2021-03-07"
+}, {
+  "company" : "Google",
+  "value" : 70.7,
+  "drop" : 47.26,
+  "variation" : 0.82,
+  "date" : "2015-01-23"
+}, {
+  "company" : "Tesla",
+  "value" : 138.05,
+  "drop" : 10.13,
+  "variation" : 0.67,
+  "date" : "2020-12-12"
+}, {
+  "company" : "Tesla",
+  "value" : 103.74,
+  "drop" : 5.96,
+  "variation" : 0.16,
+  "date" : "2017-04-22"
+}, {
+  "company" : "INSTAGRAM",
+  "value" : 133.41,
+  "drop" : 29.5,
+  "variation" : 0.48,
+  "date" : "2018-06-11"
+}, {
+  "company" : "LG",
+  "value" : 54.8,
+  "drop" : 40.24,
+  "variation" : 0.04,
+  "date" : "2022-07-02"
+}, {
+  "company" : "INSTAGRAM",
+  "value" : 74.82,
+  "drop" : 45.06,
+  "variation" : 0.9,
+  "date" : "2020-06-18"
+}, {
+  "company" : "INSTAGRAM",
+  "value" : 143.7,
+  "drop" : 5.39,
+  "variation" : 0.97,
+  "date" : "2020-05-25"
+}, {
+  "company" : "LG",
+  "value" : 109.5,
+  "drop" : 15.78,
+  "variation" : 0.22,
+  "date" : "2019-06-15"
+}, {
+  "company" : "Facebook",
+  "value" : 135.73,
+  "drop" : 14.42,
+  "variation" : 0.7,
+  "date" : "2022-11-12"
+} ]

@@ -1,0 +1,1161 @@
+[ {
+  "conditions" : [ {
+    "fieldName" : "VARIATION",
+    "operator" : "!=",
+    "value" : 0.15
+  }, {
+    "fieldName" : "VALUE",
+    "operator" : "=",
+    "value" : 108.96
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "Google"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "Google"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "Google"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VARIATION",
+    "operator" : "=",
+    "value" : 0.17
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "Facebook"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VARIATION",
+    "operator" : "!=",
+    "value" : 0.22
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "LG"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "Tesla"
+  }, {
+    "fieldName" : "VALUE",
+    "operator" : "=",
+    "value" : 145.41
+  }, {
+    "fieldName" : "VARIATION",
+    "operator" : ">",
+    "value" : 0.38
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VARIATION",
+    "operator" : "<=",
+    "value" : 0.99
+  }, {
+    "fieldName" : "VALUE",
+    "operator" : ">",
+    "value" : 77.32
+  }, {
+    "fieldName" : "DROP",
+    "operator" : ">",
+    "value" : 16.66
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "!=",
+    "value" : "INSTAGRAM"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VALUE",
+    "operator" : "=",
+    "value" : 95.6
+  }, {
+    "fieldName" : "DATE",
+    "operator" : ">",
+    "value" : "2018-12-17"
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "Tesla"
+  }, {
+    "fieldName" : "VARIATION",
+    "operator" : "<",
+    "value" : 0.44
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DROP",
+    "operator" : "=",
+    "value" : 38.31
+  }, {
+    "fieldName" : "VALUE",
+    "operator" : ">",
+    "value" : 92.87
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "Tesla"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VARIATION",
+    "operator" : "<=",
+    "value" : 0.96
+  }, {
+    "fieldName" : "VALUE",
+    "operator" : ">",
+    "value" : 80.87
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "!=",
+    "value" : "TWITTER"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "INSTAGRAM"
+  }, {
+    "fieldName" : "VARIATION",
+    "operator" : "!=",
+    "value" : 0.08
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "TWITTER"
+  }, {
+    "fieldName" : "VALUE",
+    "operator" : ">=",
+    "value" : 109.36
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VALUE",
+    "operator" : "=",
+    "value" : 95.66
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "!=",
+    "value" : "Google"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "TWITTER"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VALUE",
+    "operator" : "<",
+    "value" : 83.47
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "Tesla"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "TWITTER"
+  }, {
+    "fieldName" : "VARIATION",
+    "operator" : "<=",
+    "value" : 0.4
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DROP",
+    "operator" : ">=",
+    "value" : 36.56
+  }, {
+    "fieldName" : "VALUE",
+    "operator" : ">=",
+    "value" : 90.62
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "Tesla"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "INSTAGRAM"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DROP",
+    "operator" : "=",
+    "value" : 17.48
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "INSTAGRAM"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "TWITTER"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VARIATION",
+    "operator" : "<=",
+    "value" : 0.13
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "INSTAGRAM"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VARIATION",
+    "operator" : ">=",
+    "value" : 0.45
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "Google"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "INSTAGRAM"
+  }, {
+    "fieldName" : "VARIATION",
+    "operator" : "=",
+    "value" : 0.52
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "INSTAGRAM"
+  }, {
+    "fieldName" : "DROP",
+    "operator" : ">=",
+    "value" : 2.35
+  }, {
+    "fieldName" : "VARIATION",
+    "operator" : "=",
+    "value" : 0.57
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VALUE",
+    "operator" : "=",
+    "value" : 119.93
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "INSTAGRAM"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "Tesla"
+  }, {
+    "fieldName" : "VALUE",
+    "operator" : "=",
+    "value" : 85.52
+  }, {
+    "fieldName" : "VARIATION",
+    "operator" : "<",
+    "value" : 0.22
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VALUE",
+    "operator" : ">",
+    "value" : 87.07
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "Google"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "Google"
+  }, {
+    "fieldName" : "VARIATION",
+    "operator" : "<",
+    "value" : 0.11
+  }, {
+    "fieldName" : "VALUE",
+    "operator" : "<",
+    "value" : 107.06
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "Facebook"
+  }, {
+    "fieldName" : "VARIATION",
+    "operator" : ">=",
+    "value" : 0.29
+  }, {
+    "fieldName" : "DROP",
+    "operator" : "<",
+    "value" : 36.98
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VARIATION",
+    "operator" : "!=",
+    "value" : 0.3
+  }, {
+    "fieldName" : "DROP",
+    "operator" : ">=",
+    "value" : 31.42
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "Google"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DROP",
+    "operator" : ">=",
+    "value" : 25.11
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "TWITTER"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VARIATION",
+    "operator" : "=",
+    "value" : 0.89
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "Tesla"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VARIATION",
+    "operator" : ">=",
+    "value" : 0.55
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "Google"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VARIATION",
+    "operator" : ">=",
+    "value" : 0.96
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "!=",
+    "value" : "INSTAGRAM"
+  }, {
+    "fieldName" : "VALUE",
+    "operator" : ">=",
+    "value" : 72.55
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DROP",
+    "operator" : ">=",
+    "value" : 17.35
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "!=",
+    "value" : "Google"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VALUE",
+    "operator" : ">=",
+    "value" : 110.83
+  }, {
+    "fieldName" : "DROP",
+    "operator" : "=",
+    "value" : 37.42
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "INSTAGRAM"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VARIATION",
+    "operator" : "!=",
+    "value" : 0.81
+  }, {
+    "fieldName" : "DROP",
+    "operator" : "<=",
+    "value" : 7.77
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "TWITTER"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VALUE",
+    "operator" : "<",
+    "value" : 71.17
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "Facebook"
+  }, {
+    "fieldName" : "DATE",
+    "operator" : "<",
+    "value" : "2019-05-03"
+  }, {
+    "fieldName" : "VARIATION",
+    "operator" : "!=",
+    "value" : 0.26
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VARIATION",
+    "operator" : "=",
+    "value" : 0.4
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "TWITTER"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VALUE",
+    "operator" : ">=",
+    "value" : 95.92
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "INSTAGRAM"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VARIATION",
+    "operator" : ">=",
+    "value" : 0.3
+  }, {
+    "fieldName" : "DROP",
+    "operator" : "!=",
+    "value" : 15.83
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "LG"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "COMPANY",
+    "operator" : "!=",
+    "value" : "LG"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "COMPANY",
+    "operator" : "!=",
+    "value" : "Facebook"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "COMPANY",
+    "operator" : "!=",
+    "value" : "INSTAGRAM"
+  }, {
+    "fieldName" : "VARIATION",
+    "operator" : ">",
+    "value" : 0.78
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VARIATION",
+    "operator" : ">=",
+    "value" : 0.47
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "Tesla"
+  }, {
+    "fieldName" : "DROP",
+    "operator" : "<",
+    "value" : 34.6
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DATE",
+    "operator" : "<=",
+    "value" : "2019-04-30"
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "INSTAGRAM"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DATE",
+    "operator" : ">=",
+    "value" : "2018-12-30"
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "LG"
+  }, {
+    "fieldName" : "VALUE",
+    "operator" : ">=",
+    "value" : 137.36
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DROP",
+    "operator" : ">=",
+    "value" : 28.55
+  }, {
+    "fieldName" : "VARIATION",
+    "operator" : "<=",
+    "value" : 0.95
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "Facebook"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "LG"
+  }, {
+    "fieldName" : "DROP",
+    "operator" : "<",
+    "value" : 16.56
+  }, {
+    "fieldName" : "VARIATION",
+    "operator" : "<",
+    "value" : 0.52
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DROP",
+    "operator" : "<=",
+    "value" : 35.23
+  }, {
+    "fieldName" : "DATE",
+    "operator" : "=",
+    "value" : "2015-11-24"
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "TWITTER"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "TWITTER"
+  }, {
+    "fieldName" : "DROP",
+    "operator" : ">=",
+    "value" : 33.09
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VALUE",
+    "operator" : "=",
+    "value" : 129.53
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "Google"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VALUE",
+    "operator" : "<=",
+    "value" : 98.2
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "Google"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DROP",
+    "operator" : "=",
+    "value" : 13.99
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "INSTAGRAM"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DROP",
+    "operator" : "=",
+    "value" : 30.58
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "Google"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "COMPANY",
+    "operator" : "!=",
+    "value" : "Facebook"
+  }, {
+    "fieldName" : "DATE",
+    "operator" : ">",
+    "value" : "2018-11-30"
+  }, {
+    "fieldName" : "VARIATION",
+    "operator" : "!=",
+    "value" : 0.47
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DATE",
+    "operator" : "=",
+    "value" : "2017-05-08"
+  }, {
+    "fieldName" : "VALUE",
+    "operator" : "<=",
+    "value" : 137.89
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "LG"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VARIATION",
+    "operator" : ">",
+    "value" : 0.36
+  }, {
+    "fieldName" : "VALUE",
+    "operator" : "=",
+    "value" : 145.48
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "!=",
+    "value" : "Facebook"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DROP",
+    "operator" : "!=",
+    "value" : 12.63
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "!=",
+    "value" : "Google"
+  }, {
+    "fieldName" : "VARIATION",
+    "operator" : ">",
+    "value" : 0.53
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VARIATION",
+    "operator" : "=",
+    "value" : 0.23
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "Facebook"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "COMPANY",
+    "operator" : "!=",
+    "value" : "LG"
+  }, {
+    "fieldName" : "VARIATION",
+    "operator" : "<",
+    "value" : 0.85
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VARIATION",
+    "operator" : ">=",
+    "value" : 0.09
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "Facebook"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DATE",
+    "operator" : "=",
+    "value" : "2016-04-30"
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "Tesla"
+  }, {
+    "fieldName" : "VARIATION",
+    "operator" : ">=",
+    "value" : 0.42
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VALUE",
+    "operator" : "<",
+    "value" : 107.98
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "!=",
+    "value" : "Facebook"
+  }, {
+    "fieldName" : "VARIATION",
+    "operator" : ">",
+    "value" : 0.2
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "COMPANY",
+    "operator" : "!=",
+    "value" : "Google"
+  }, {
+    "fieldName" : "DATE",
+    "operator" : "<=",
+    "value" : "2016-12-31"
+  }, {
+    "fieldName" : "DROP",
+    "operator" : ">",
+    "value" : 49.12
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "TWITTER"
+  }, {
+    "fieldName" : "VARIATION",
+    "operator" : ">",
+    "value" : 0.82
+  }, {
+    "fieldName" : "DROP",
+    "operator" : "!=",
+    "value" : 8.8
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DROP",
+    "operator" : "!=",
+    "value" : 31.42
+  }, {
+    "fieldName" : "DATE",
+    "operator" : "<=",
+    "value" : "2022-03-21"
+  }, {
+    "fieldName" : "VARIATION",
+    "operator" : "<",
+    "value" : 0.65
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "INSTAGRAM"
+  }, {
+    "fieldName" : "DROP",
+    "operator" : "<",
+    "value" : 23.24
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "COMPANY",
+    "operator" : "!=",
+    "value" : "TWITTER"
+  }, {
+    "fieldName" : "VARIATION",
+    "operator" : "<=",
+    "value" : 0.31
+  }, {
+    "fieldName" : "VALUE",
+    "operator" : "!=",
+    "value" : 79.21
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DATE",
+    "operator" : "<",
+    "value" : "2016-04-06"
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "INSTAGRAM"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "Google"
+  }, {
+    "fieldName" : "VARIATION",
+    "operator" : ">=",
+    "value" : 0.83
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VARIATION",
+    "operator" : ">=",
+    "value" : 0.87
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "!=",
+    "value" : "Facebook"
+  }, {
+    "fieldName" : "DATE",
+    "operator" : ">",
+    "value" : "2020-10-07"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VARIATION",
+    "operator" : "<",
+    "value" : 0.51
+  }, {
+    "fieldName" : "VALUE",
+    "operator" : "!=",
+    "value" : 148.59
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "Tesla"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VALUE",
+    "operator" : "<=",
+    "value" : 100.56
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "Google"
+  }, {
+    "fieldName" : "VARIATION",
+    "operator" : ">",
+    "value" : 0.35
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VALUE",
+    "operator" : "<",
+    "value" : 117.63
+  }, {
+    "fieldName" : "VARIATION",
+    "operator" : "!=",
+    "value" : 0.29
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DROP",
+    "operator" : ">=",
+    "value" : 31.34
+  }, {
+    "fieldName" : "VALUE",
+    "operator" : ">=",
+    "value" : 130.06
+  }, {
+    "fieldName" : "VARIATION",
+    "operator" : "<=",
+    "value" : 0.5
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DROP",
+    "operator" : ">=",
+    "value" : 19.42
+  }, {
+    "fieldName" : "VALUE",
+    "operator" : "<",
+    "value" : 69.12
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "Tesla"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "Tesla"
+  }, {
+    "fieldName" : "VARIATION",
+    "operator" : "!=",
+    "value" : 0.9
+  }, {
+    "fieldName" : "VALUE",
+    "operator" : "=",
+    "value" : 63.57
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "Facebook"
+  }, {
+    "fieldName" : "DATE",
+    "operator" : ">",
+    "value" : "2021-02-18"
+  }, {
+    "fieldName" : "DROP",
+    "operator" : "<",
+    "value" : 28.55
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VALUE",
+    "operator" : "<",
+    "value" : 92.33
+  }, {
+    "fieldName" : "DATE",
+    "operator" : "=",
+    "value" : "2020-10-12"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DROP",
+    "operator" : "<=",
+    "value" : 44.49
+  }, {
+    "fieldName" : "VALUE",
+    "operator" : "!=",
+    "value" : 144.11
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "Facebook"
+  }, {
+    "fieldName" : "VALUE",
+    "operator" : "<=",
+    "value" : 137.83
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VARIATION",
+    "operator" : ">",
+    "value" : 0.21
+  }, {
+    "fieldName" : "VALUE",
+    "operator" : "!=",
+    "value" : 101.66
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VARIATION",
+    "operator" : "!=",
+    "value" : 0.79
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "COMPANY",
+    "operator" : "!=",
+    "value" : "Facebook"
+  }, {
+    "fieldName" : "VARIATION",
+    "operator" : "=",
+    "value" : 0.34
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DATE",
+    "operator" : ">",
+    "value" : "2020-07-30"
+  }, {
+    "fieldName" : "VARIATION",
+    "operator" : "<",
+    "value" : 0.74
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VARIATION",
+    "operator" : "<=",
+    "value" : 0.53
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "!=",
+    "value" : "TWITTER"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VALUE",
+    "operator" : "=",
+    "value" : 73.48
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "TWITTER"
+  }, {
+    "fieldName" : "VARIATION",
+    "operator" : "<",
+    "value" : 0.57
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VALUE",
+    "operator" : ">",
+    "value" : 82.84
+  }, {
+    "fieldName" : "VARIATION",
+    "operator" : "<",
+    "value" : 0.55
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DATE",
+    "operator" : "=",
+    "value" : "2021-10-08"
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "LG"
+  }, {
+    "fieldName" : "VARIATION",
+    "operator" : "<=",
+    "value" : 0.16
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "Google"
+  }, {
+    "fieldName" : "DROP",
+    "operator" : ">",
+    "value" : 30.6
+  }, {
+    "fieldName" : "VARIATION",
+    "operator" : "<",
+    "value" : 0.99
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DATE",
+    "operator" : "<",
+    "value" : "2019-01-02"
+  }, {
+    "fieldName" : "VALUE",
+    "operator" : "=",
+    "value" : 140.37
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "!=",
+    "value" : "LG"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DATE",
+    "operator" : "=",
+    "value" : "2021-02-27"
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "Tesla"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DATE",
+    "operator" : "=",
+    "value" : "2017-12-24"
+  }, {
+    "fieldName" : "VARIATION",
+    "operator" : "=",
+    "value" : 0.7
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "Facebook"
+  }, {
+    "fieldName" : "VARIATION",
+    "operator" : "=",
+    "value" : 0.53
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VARIATION",
+    "operator" : "!=",
+    "value" : 0.22
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "Tesla"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "INSTAGRAM"
+  }, {
+    "fieldName" : "VALUE",
+    "operator" : "<",
+    "value" : 84.81
+  }, {
+    "fieldName" : "DROP",
+    "operator" : "<",
+    "value" : 3.22
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DATE",
+    "operator" : "<",
+    "value" : "2018-03-28"
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "!=",
+    "value" : "LG"
+  }, {
+    "fieldName" : "VARIATION",
+    "operator" : "!=",
+    "value" : 0.29
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "LG"
+  }, {
+    "fieldName" : "VALUE",
+    "operator" : ">",
+    "value" : 57.79
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VARIATION",
+    "operator" : "=",
+    "value" : 0.12
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "INSTAGRAM"
+  } ]
+} ]
