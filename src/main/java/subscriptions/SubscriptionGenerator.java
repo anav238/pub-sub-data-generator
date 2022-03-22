@@ -12,7 +12,6 @@ import java.util.SplittableRandom;
 public class SubscriptionGenerator {
 
     private final SubscriptionGeneratorConfiguration configuration;
-    private final SplittableRandom random = new SplittableRandom();
 
     public SubscriptionGenerator(SubscriptionGeneratorConfiguration configuration) {
         this.configuration = configuration;
@@ -71,9 +70,5 @@ public class SubscriptionGenerator {
         ComparisonOperator comparisonOperator = RandomUtils.getRandomComparisonOperator();
         Object value = RandomFieldsUtils.getRandomFieldValue(field);
         return new SubscriptionCondition(field, comparisonOperator, value);
-    }
-
-    private boolean includeField(int probability) {
-        return random.nextInt(1, 101) <= probability;
     }
 }

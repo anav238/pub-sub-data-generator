@@ -1,0 +1,89 @@
+[ {
+  "conditions" : [ {
+    "fieldName" : "VALUE",
+    "operator" : ">=",
+    "value" : 57.43
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "!=",
+    "value" : "INSTAGRAM"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VARIATION",
+    "operator" : ">",
+    "value" : 0.77
+  }, {
+    "fieldName" : "DROP",
+    "operator" : "<",
+    "value" : 44.92
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "COMPANY",
+    "operator" : "!=",
+    "value" : "Tesla"
+  }, {
+    "fieldName" : "VALUE",
+    "operator" : "<=",
+    "value" : 94.53
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "Google"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "INSTAGRAM"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "VARIATION",
+    "operator" : "=",
+    "value" : 0.09
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "INSTAGRAM"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "DATE",
+    "operator" : ">",
+    "value" : "2020-05-26"
+  }, {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "LG"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "Google"
+  }, {
+    "fieldName" : "DATE",
+    "operator" : "<",
+    "value" : "2022-07-25"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "LG"
+  } ]
+}, {
+  "conditions" : [ {
+    "fieldName" : "COMPANY",
+    "operator" : "=",
+    "value" : "Facebook"
+  }, {
+    "fieldName" : "DROP",
+    "operator" : "!=",
+    "value" : 18.72
+  } ]
+} ]
