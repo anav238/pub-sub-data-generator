@@ -1,5 +1,6 @@
 # pub-sub-data-generator
 Homework made for the Event Based Systems laboratory
+
 Scrieti un program care sa genereze aleator seturi echilibrate de subscriptii si publicatii cu posibilitatea de fixare a: numarului total de mesaje (publicatii, respectiv subscriptii), ponderii pe frecventa campurilor din subscriptii si ponderii operatorilor de egalitate din subscriptii pentru cel putin un camp. Publicatiile vor avea o structura fixa de campuri la alegere.
 
 Exemplu:
