@@ -17,4 +17,5 @@ Note:
 - tema cere doar generarea de date, nu implementarea unei topologii Storm care sa includa functionalitatea de matching intre subscriptii si publicatii; nu exista restrictii de limbaj sau platforma pentru implementare
 - optional, implementarea temei poate include o optimizare de performanta prin paralelizarea generarii subscriptiilor si publicatiilor; in acest caz trebuie evident considerata posibila necesitate de sincronizare a threadurilor ce poate sa apara in functie de algoritmul ales pentru generarea subscriptiilor
 
+
 Hint: NU se recomanda utilizarea distributiei random in obtinerea procentelor cerute pentru campurile subscriptiilor (nu garanteaza o distributie precisa).
